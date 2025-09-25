@@ -1,0 +1,62 @@
+.hide{
+
+ display: none;
+
+}
+
+p{
+
+ color: rgb(60, 97, 129);
+
+
+
+
+}
+@media(max-width:400px){
+
+    
+}
+.container{
+
+ background-color: rgb(201, 252, 252);
+ width: 300px;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+  height: 900px;
+
+
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ animation: slideFromLeft 0.8s ease-out forwards;
+ transform: translateX(-100%); /* start off-screen */
+ opacity: 0;
+
+
+
+
+}
+
+@keyframes slideFromLeft {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+button{
+ border-radius: 7px;
+ background-color: rgb(139, 191, 233);
+ border: 1px solid;
+
+
+}
+
+button:hover{
+
+ background-color: rgb(69, 142, 206);
+ cursor: pointer;
+ transition: 1s;   
+}
